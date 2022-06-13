@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+}
+
+section {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #ccc;
+    margin: auto;
+    background-color: rgba(1, 1, 1, 0.5);
+    padding: 30px;
+    border-radius: 5px;
+}
